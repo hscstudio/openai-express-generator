@@ -1,0 +1,13 @@
+{
+    "route-api": {
+        "/posts": {
+            "content": "create json array contain field id, title, author"
+        }
+    },
+    "route-web": {
+        "/posts": {
+            "content": "using javascript, create fetch function to get data posts from api http://localhost:3000/api/posts, and then display in html table form with column id, title and author and use bootstrap css framework",
+            "filename": "views/posts.ejs"
+        }
+    }
+}
